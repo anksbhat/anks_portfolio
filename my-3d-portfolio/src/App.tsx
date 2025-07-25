@@ -874,7 +874,7 @@ export default function App() {
           {/* Download Button */}
           <a
             href={"/Ankitha_July'25.pdf"}
-            download="Ankitha_July25.pdf"
+            download
             style={{
               width: 44,
               height: 44,
