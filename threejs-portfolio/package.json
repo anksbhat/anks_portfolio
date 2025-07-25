@@ -1,0 +1,26 @@
+{
+  "name": "threejs-portfolio",
+  "version": "1.0.0",
+  "description": "A 3D portfolio website using Three.js",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server public",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "three": "^0.152.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "keywords": [
+    "threejs",
+    "portfolio",
+    "3d",
+    "web"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

@@ -1,0 +1,15 @@
+/* Custom scrollbar for glass panel */
+.glass-panel {
+  scrollbar-width: thin;
+  scrollbar-color: #fff #222;
+}
+.glass-panel::-webkit-scrollbar {
+  width: 8px;
+}
+.glass-panel::-webkit-scrollbar-thumb {
+  background: #fff6;
+  border-radius: 8px;
+}
+.glass-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
